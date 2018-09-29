@@ -80,6 +80,7 @@
         </a>
       </li>
     </ul>
+    <a href="/upload">hello</a>
   </div>
 </template>
 
