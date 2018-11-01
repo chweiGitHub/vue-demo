@@ -2,7 +2,7 @@
   <div class="list">
     <ul>
         <li class="item-container" v-for="item in list">
-          <img class="item-image" v-bind:src="'http://192.168.1.163/images/'+item.image" alt=""/>
+          <img class="item-image" v-bind:src="'http://192.168.1.166/images/'+item.image" alt=""/>
           <div class="item-info">
             <div class="item-name">
               {{item.name}}

@@ -13,7 +13,7 @@ module.exports = {
     proxyTable: {
       // 配置代理
       '/':{
-        target: 'http://192.168.1.163:3000'
+        target: 'http://192.168.1.166:3000'
         // target: 'http://localhost:3000'
       }
     },

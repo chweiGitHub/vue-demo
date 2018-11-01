@@ -16,9 +16,9 @@ export default {
         }
     },
     methods: {
-        toDetailPage(){
-            // 编程式路由来实现
+        toDetailPage(){ 
             const id = 1001;
+            // 编程式
             // this.$router.push(`/list-detail/${id}`);
             this.$router.push({path: `/list-detail/${id}?usr=spark`});
         },
